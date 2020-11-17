@@ -203,6 +203,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget searchTF() {
     return TextField(
       decoration: InputDecoration(
+        prefixIcon: Icon(Icons.search,color:  Color(0xFFF12711),),
         border: OutlineInputBorder(
           borderRadius: const BorderRadius.all(
             const Radius.circular(
